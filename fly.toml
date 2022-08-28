@@ -16,6 +16,12 @@ processes = []
   LOG_CHANNEL = "stderr"
   LOG_LEVEL = "info"
   LOG_STDERR_FORMATTER = "Monolog\\Formatter\\JsonFormatter"
+  DB_CONNECTION="pgsql"
+  DB_HOST="fly-david-es-postgres.internal"
+  DB_PORT="5432"
+  DB_DATABASE="fly_david_es"
+  DB_USERNAME="postgres"
+
 
 [experimental]
   allowed_public_ports = []
